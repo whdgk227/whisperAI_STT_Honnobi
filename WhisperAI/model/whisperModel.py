@@ -9,5 +9,5 @@ def getWhisperModel(modelType = "large"):
 
   return model
 
-def transcribe(model, videoPath, language='ko'):
-  return model.transcribe(base_directory+video_name, language='ko')
+def perform(model, videoPath, language='ko'):
+  return model.transcribe(videoPath, language='ko')
