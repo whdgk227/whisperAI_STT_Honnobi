@@ -1,3 +1,4 @@
+import whisper
 
 def getWhisperModel(modelType = "large"):
   # model parameter - tiny, base, small, medium, large

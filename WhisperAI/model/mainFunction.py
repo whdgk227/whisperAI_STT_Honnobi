@@ -1,3 +1,6 @@
+from datetime import timedelta
+import os
+
 def convertSegmentToSrt(result, saveFileName):
     print(saveFileName + " - 자막 생성을 시작합니다.")
     saveFilePath = "./"
